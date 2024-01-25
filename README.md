@@ -49,3 +49,5 @@ The directory `src/main/resources` is now an NPM project - like the one you prob
 2. Then `npm ci` is run inside `target/webjar` installing the dependencies by following `package-lock.json`
 3. Then `npm run build` is run inside `target/webjar`, producing the artifacts of `target/webjar/dist`
 4. At last, the content of `target/webjar/dist` is copied to the relevant directory to be included in the WebJar packaging.
+
+This project is inspired from [Manuel Leducs's](https://github.com/manuelleduc) webpack demo.
