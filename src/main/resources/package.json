@@ -1,0 +1,21 @@
+{
+  "name": "npm-webpack",
+  "version": "1.0.0",
+  "description": "NPM support inside WebJars!",
+  "scripts": {
+    "exec": "node dist/output.js",
+    "build": "npx webpack --mode=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react" : "17.0.2"
+  },
+  "devDependencies": {
+    "ts-loader": "9.4.4",
+    "typescript": "5.1.6",
+    "webpack": "5.88.2",
+    "webpack-cli": "5.1.4",
+    "kotatsu": "0.23.1"
+  }
+}
